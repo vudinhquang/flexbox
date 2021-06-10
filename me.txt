@@ -1,5 +1,10 @@
                                     Flex Container
                                     
 Display flex
+    flex, inline-flex
 Flex direction
+    row(default), row-reverse, column, column-reverse
 Flex wrap
+    nowrap(default), wrap, wrap-reverse
+Flex flow
+    flex-flow: <direction-value> <wrap-value>
