@@ -8,3 +8,7 @@ Flex wrap
     nowrap(default), wrap, wrap-reverse
 Flex flow
     flex-flow: <direction-value> <wrap-value>
+Justify content
+    justify-content -> alignment along main axis
+    flex-start(default) | flex-end | center | space-between | space-around | space-evenly
+    
