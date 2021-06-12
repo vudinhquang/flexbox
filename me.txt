@@ -1,22 +1,38 @@
                                     Flex Container
                                     
 Display flex
+    Khi sử dụng display: flex cho 1 element nào đó thì element đó sẽ trở thành 1 flex container
+        các thành phần con trực tiếp bên trong sẽ là các flex item, kích thước của các item phụ
+        thuộc vào nội dung của nó(khi ko set kích thước cho nó)
     flex, inline-flex
 Flex direction
+    Quyết định hướng của trục main axis: →　←　↑　↓
     row(default), row-reverse, column, column-reverse
 Flex wrap
     nowrap(default), wrap, wrap-reverse
+    nowrap: Không tự động xuống dòng khi số lượng flex element quá nhiều
+    wrap/wrap-reverse(Cho phép các phần tử xuống dòng)
 Flex flow
     flex-flow: <direction-value> <wrap-value>
+    Là sự kết hợp và viết tắt của Flex direction và Flex wrap
 Justify content
     justify-content -> alignment along main axis
     flex-start(default) | flex-end | center | space-between | space-around | space-evenly
+    Căn chỉnh các phần tử trong flex container theo trục main axis
 Align items
     align-items -> alignment along cross axis
     stretch(default) | flex-start | flex-end | center | baseline
     baseline: Căn theo chân của chữ
+    Căn chỉnh các phân tử theo trục cross axis
 Align content
     Cách hoạt động tương tự như Justify content nhưng Align content căn chỉnh theo trục Cross Axis
     Chỉ hoạt động khi flex-wrap được set wrap/wrap-reverse(Cho phép các phần tử xuống dòng)
     flex-start | flex-end | space-between | space-around | space-evenly | center
+
+==================================================================================================
+
+                                    Flex Items                          
+
+Order
+    Sắp xếp được thứ tự của các flex item
     
