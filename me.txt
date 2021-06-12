@@ -53,4 +53,6 @@ Flex shrink
     Ngược lại với Flex grow
     Co độ rộng của các phần tử lại theo 1 tỷ lệ nào đó do mình quy định khi độ rộng của container giảm xuống 
     Tính toán tương tự 
+Flex shorthand
+    flex: Là 1 shorthand giành cho flex-grow, flex-shrink và flex-basis, giá trị mặc định là: 0 1 auto
     
