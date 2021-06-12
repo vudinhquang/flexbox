@@ -55,4 +55,7 @@ Flex shrink
     Tính toán tương tự 
 Flex shorthand
     flex: Là 1 shorthand giành cho flex-grow, flex-shrink và flex-basis, giá trị mặc định là: 0 1 auto
+Align self
+    Tương tự như thuộc tính align-item, nhưng align-item áp dụng cho flex container, align-self áp dụng cho 
+        flex item
     

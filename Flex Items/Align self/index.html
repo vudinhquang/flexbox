@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
-        /* flex: flex-grow flex-shrink flex-basis */
-        /* flex: 0 1 auto */
+        /* align-self: auto | flex-start | flex-end | center | baseline | stretch */
         .container {
             display: flex;
+            height: 400px;
+            align-items: flex-start;
         }
 
-        .box {
-            flex: 0 1 auto;
+        .box-1 {
+            align-self: center;
+        }
+
+        .box-2 {
+            align-self: flex-end;
         }
     </style>
 </head>
@@ -26,6 +31,7 @@
         <div class="box box-2">2</div>
         <div class="box box-3">3</div>
         <div class="box box-4">4</div>
+        <div class="box box-5">5</div>
     </div>
 </body>
 
