@@ -35,4 +35,6 @@ Align content
 
 Order
     Sắp xếp được thứ tự của các flex item
+Flex basis
+    set height hoặc wight cho item dựa theo Flex direction là row hoặc column
     
