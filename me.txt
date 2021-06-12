@@ -77,4 +77,6 @@ Menu
         display: block;
         width: 100%;
     }
+Images Gallery
+    Có 6 hình ảnh và khi hover vào hình ảnh nào thì hình ảnh đó sẽ được phóng lơn lên 
     
