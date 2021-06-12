@@ -71,3 +71,10 @@ Some other
                                     Exercises                       
 
 Banner
+Menu 
+    .menu nằm phía sau #toggle-menu
+    #toggle-menu:checked + .menu {
+        display: block;
+        width: 100%;
+    }
+    

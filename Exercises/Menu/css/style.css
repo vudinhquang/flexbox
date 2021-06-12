@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #b7b7b7;
+    color: #787878;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+nav {
+    background-color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.logo {
+    font-size: 30px;
+    color: inherit;
+    font-weight: bold;
+}
+
+.btn-toggle-menu {
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    color: inherit;
+    display: block;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.menu li.active a {
+    color: #fff;
+    background-color: #0f0f0f;
+}
+
+.menu li a:hover {
+    color: #fff;
+    background-color: #0f0f0f;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu li {
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    .btn-toggle-menu {
+        display: unset;
+    }
+
+    #toggle-menu:checked + .menu {
+        display: block;
+        width: 100%;
+    }
+}
