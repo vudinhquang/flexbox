@@ -58,4 +58,11 @@ Flex shorthand
 Align self
     Tương tự như thuộc tính align-item, nhưng align-item áp dụng cho flex container, align-self áp dụng cho 
         flex item
+Some other
+    Check các thuộc tính của css có dùng được đối với từng loại trình duyệt hay không
+        https://caniuse.com/
+        Can i use: flex
+        https://caniuse.com/?search=flex
+    flex css tricks
+        https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     
