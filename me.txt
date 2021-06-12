@@ -66,3 +66,8 @@ Some other
     flex css tricks
         https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     
+==================================================================================================
+
+                                    Exercises                       
+
+Banner
