@@ -79,4 +79,12 @@ Menu
     }
 Images Gallery
     Có 6 hình ảnh và khi hover vào hình ảnh nào thì hình ảnh đó sẽ được phóng lơn lên 
+Blog Posts
+    Giải quyết vấn đề hình bị méo
+        object-fit: cover
+    Khai báo biến trong css
+        :root {
+            --margin-20: 20px;
+            --transition: 0.4s linear;
+        }
     
