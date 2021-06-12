@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* align-content */
+        /* flex-start | flex-end | space-between | space-around | space-evenly | center */
+        .container {
+            height: 400px;
+            display: flex; 
+            flex-wrap: wrap; 
+            /* align-items: flex-start; */
+            align-content: flex-start;
+            align-content: flex-end;
+            align-content: space-between;
+            align-content: space-around;
+            align-content: space-evenly;
+            align-content: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2</div>
+        <div class="box box-3">3</div>
+        <div class="box box-4">4</div>
+        <div class="box box-5">5</div>
+        <div class="box more">M</div>
+        <div class="box more">M</div>
+        <div class="box more">M</div>
+        <div class="box more">M</div>
+        <div class="box more">M</div>
+    </div>
+</body>
+
+</html>

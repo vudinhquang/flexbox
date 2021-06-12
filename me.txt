@@ -15,4 +15,8 @@ Align items
     align-items -> alignment along cross axis
     stretch(default) | flex-start | flex-end | center | baseline
     baseline: Căn theo chân của chữ
+Align content
+    Cách hoạt động tương tự như Justify content nhưng Align content căn chỉnh theo trục Cross Axis
+    Chỉ hoạt động khi flex-wrap được set wrap/wrap-reverse(Cho phép các phần tử xuống dòng)
+    flex-start | flex-end | space-between | space-around | space-evenly | center
     
