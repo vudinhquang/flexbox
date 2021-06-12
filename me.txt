@@ -34,10 +34,13 @@ Align content
                                     Flex Items                          
 
 Order
+    Order: default value - 0
     Sắp xếp được thứ tự của các flex item
 Flex basis
+    flex-basis: default value - auto
     set height hoặc wight cho item dựa theo Flex direction là row hoặc column
 Flex grow
+    flex-grow: default value - 0
     Tự động giãn các phần tử item để phủ đầy container
     container: 600px, border: 3px
     box1: 100px, flex-grow: 1;
@@ -45,4 +48,9 @@ Flex grow
     dư: 600-6-200=394px
     box1 after: 100 + 394/4 = 198.5px
     box2 after: 100 + 394*3/4 = 395.5px
+Flex shrink
+    flex-shrink: default value - 1
+    Ngược lại với Flex grow
+    Co độ rộng của các phần tử lại theo 1 tỷ lệ nào đó do mình quy định khi độ rộng của container giảm xuống 
+    Tính toán tương tự 
     

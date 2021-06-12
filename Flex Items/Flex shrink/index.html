@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* flex-shrink: default value - 1 */
+        .container {
+            display: flex;
+            max-width: 800px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            flex-basis: 300px;
+        }
+
+        .box-1 {
+            flex-shrink: 1;
+        }
+
+        .box-2 {
+            flex-shrink: 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2</div>
+    </div>
+</body>
+
+</html>
