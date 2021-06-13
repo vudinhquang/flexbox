@@ -90,3 +90,14 @@ Blog Posts
 Mobile Reordering
     100vh có chiều cao bằng với chiều cao của màn hình
     min-height: 100vh;
+Mobile App - Chat List - HTML
+    Tắt sự hiển thị của thanh cuộn đối với Google Chrome
+        .chat-list::-webkit-scrollbar {
+            display: none;
+        }
+    Tắt sự hiển thị của thanh cuộn đối với Firefox và IE 
+        .chat-list {
+            -ms-overflow-style: none;   // IE
+            scrollbar-width: none;      // Firefox
+        }
+    
