@@ -87,4 +87,6 @@ Blog Posts
             --margin-20: 20px;
             --transition: 0.4s linear;
         }
-    
+Mobile Reordering
+    100vh có chiều cao bằng với chiều cao của màn hình
+    min-height: 100vh;

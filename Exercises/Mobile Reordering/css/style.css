@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+    color: #fff;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+header,
+nav,
+section,
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle-menu {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 5px 10px;
+    transition: 0.3s;
+}
+
+.menu li:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.menu li a {
+    display: block;
+    padding: 8px 15px;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .toggle-menu {
+        display: unset;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .wrapper > * {
+        order: 1000;
+    }
+
+    nav {
+        order: 1;
+    }
+
+    header {
+        order: 2;
+    }
+
+    .content {
+        order: 3;
+    }
+
+    .banner {
+        order: 4;
+    }
+}
